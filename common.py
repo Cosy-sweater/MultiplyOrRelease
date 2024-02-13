@@ -75,10 +75,11 @@ class ConfigLoader:
 
 class Scene(Node):
     """Child class of Node class. Meant to be used as big Node container"""
+
     def __init__(self, scene_name: str = None, position: tuple[int, int] = (0, 0), size: tuple[int, int] = (100, 100)):
         super().__init__(scene_name)
         self.focused = False
-        
+
         self.scene_rect = pygame.Rect(position, size)
 
     def update(self, deltatime: int, events: list[pygame.event], dynamic_info: dict) -> None:
@@ -92,7 +93,7 @@ class Scene(Node):
                         break
         else:
             super().update(deltatime, events, dynamic_info)
-    
+
     def draw(self, surface: pygame.Surface) -> None:
         pygame.draw.rect(surface, (77, 77, 77), self.scene_rect)
         pygame.draw.rect(surface, (44, 44, 44), self.scene_rect, 4)
@@ -102,4 +103,3 @@ class Scene(Node):
     def unfocus_all_scenes(cls):
         for node in cls.node_list:
             node.focused = False
-

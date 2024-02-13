@@ -1,0 +1,19 @@
+[TEXT_FIELDS]
+app_title = "Multyply or release (PG edition)"
+exit_confirmation_title = "Подтверждение выхода"
+exit_confirmation_message = "Вы точно хотите выйти?\nНесохранённые сцены и состояние симуляции будут утеряны"
+
+[TEXT_FIELDS.menu]
+#title = ""
+btn_play = "Играть"
+btn_settings = "Настройки"
+btn_exit = "Выход"
+
+[TEXT_FIELDs.toolbar]
+common = "Общее"
+scene = "Сцена"
+simulation = "Симуляция"
+
+[TEXT_FIELDS.common_btns]
+restart_game = "Создать новую симуляцию"
+settings = "Открыть настройки"

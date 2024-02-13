@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f49b427-a766-4b18-926c-494e5f96aecb" name="Changes" comment="dev_pre-alpha_0.1.1&#10;&#10;Additional basics. No game, no anything">
+    <list default="true" id="9f49b427-a766-4b18-926c-494e5f96aecb" name="Changes" comment="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707507581193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app">
+      <option name="closed" value="true" />
+      <created>1707594264670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707594264670</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dev_pre-alpha_0.1.0&#10;&#10;Basic basics" />
     <MESSAGE value="dev_pre-alpha_0.1.1&#10;&#10;Additional basics. No game, no anything" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev_pre-alpha_0.1.1&#10;&#10;Additional basics. No game, no anything" />
+    <MESSAGE value="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app" />
   </component>
 </project>
