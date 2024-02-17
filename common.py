@@ -33,9 +33,10 @@ class Node:
         for node in self.child_nodes:
             node.draw(surface)
 
-    def get_new_node_name(self) -> str:
-        self.node_id += 1
-        new_name = self.__class__.__name__ + str(self.node_id)
+    @classmethod
+    def get_new_node_name(cls) -> str:
+        cls.node_id += 1
+        new_name = cls.__name__ + str(cls.node_id)
         return new_name
 
     def add_child_nodes(self, nodes: typing.Iterable["Node"]):
@@ -76,9 +77,11 @@ class ConfigLoader:
 class Scene(Node):
     """Child class of Node class. Meant to be used as big Node container"""
 
-    def __init__(self, scene_name: str = None, position: tuple[int, int] = (0, 0), size: tuple[int, int] = (100, 100)):
+    def __init__(self, scene_name: str = None, position: tuple[int, int] = (0, 0), size: tuple[int, int] = (100, 100),
+                 crop_contents: bool = False):
         super().__init__(scene_name)
         self.focused = False
+        self.crop_contents = False
 
         self.scene_rect = pygame.Rect(position, size)
 

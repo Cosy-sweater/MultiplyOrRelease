@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f49b427-a766-4b18-926c-494e5f96aecb" name="Changes" comment="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app">
+    <list default="true" id="9f49b427-a766-4b18-926c-494e5f96aecb" name="Changes" comment="dev_pre-alpha_0.1.3&#10;&#10;Some adjustments &amp;&amp; ingame text file &amp;&amp; some basic functions">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/defaults.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +50,15 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/belov/PycharmProjects/MultiplyOrReleasePG/requirements.txt&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/belov/PycharmProjects/HW&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\belov\PycharmProjects\MultiplyOrReleasePG\assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="MultiplyOrReleasePG" />
@@ -114,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707594264670</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dev_pre-alpha_0.1.3&#10;&#10;Some adjustments &amp;&amp; ingame text file &amp;&amp; some basic functions">
+      <option name="closed" value="true" />
+      <created>1707852002046</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707852002046</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +150,7 @@
     <MESSAGE value="dev_pre-alpha_0.1.0&#10;&#10;Basic basics" />
     <MESSAGE value="dev_pre-alpha_0.1.1&#10;&#10;Additional basics. No game, no anything" />
     <MESSAGE value="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app" />
-    <option name="LAST_COMMIT_MESSAGE" value="dev_pre-alpha_0.1.2&#10;&#10;Changed Node structure a bit &amp;&amp; very basic working app" />
+    <MESSAGE value="dev_pre-alpha_0.1.3&#10;&#10;Some adjustments &amp;&amp; ingame text file &amp;&amp; some basic functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev_pre-alpha_0.1.3&#10;&#10;Some adjustments &amp;&amp; ingame text file &amp;&amp; some basic functions" />
   </component>
 </project>
